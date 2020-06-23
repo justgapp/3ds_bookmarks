@@ -1,2 +1,2 @@
-# 3ds_favourites
-Template taken from Nintendo 3DS favourites
+# 3ds_bookmarks
+Template site taken from Nintendo 3DS bookmarks (https://microsite.nintendo-europe.com/nintendo3dsbookmarks/index.php)

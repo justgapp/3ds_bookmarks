@@ -24,7 +24,7 @@ body {
     color: #85878C;
     margin-left: 15px;
 }
-#content-wrapper .amiibo {
+#content-wrapper .one {
     background-color: #000000;
 }
 .category {
@@ -53,22 +53,22 @@ body {
     padding-top: 4px;
     width: 220px;
 }
-.amiibo .title {
+.one .title {
     color: #FFFFFF;
 }
-.amiibo .icon {
-    background-image: url(images/icon-amiibo.png);
+.one .icon {
+    background-image: url(images/category1.png);
 }
-.games .icon {
-    background-image: url(images/icon-games.png);
+.two .icon {
+    background-image: url(images/category2.png);
 }
-.news .icon {
-    background-image: url(images/icon-news.png);
+.three .icon {
+    background-image: url(images/category3.png);
 }
-.support .icon {
-    background-image: url(images/icon-support.png);
+.four .icon {
+    background-image: url(images/category4.png);
 }
-.misc-links div {
+.links div {
     background-color: #ECECEC;
     display: inline-block;
     height: 65px;
@@ -78,16 +78,16 @@ body {
     text-align: center;
     vertical-align: top;
 }
-.misc-links .wiiu {
+.links .link1 {
     float: left;
 }
-.misc-links .eshop {
+.links .link2 {
     float: right;
 }
-.misc-links .wiiu img {
+.links .link1 img {
     margin-top: 21px;
 }
-.misc-links .eshop img {
+.links .link2 img {
     margin-top: 19px;
 }
 .footer {

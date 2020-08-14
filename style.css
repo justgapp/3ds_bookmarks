@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.header, #content-wrapper, .category {
+    width: 320px;
+}
+.header {
+    background-color: #ECECEC;
+    padding: 12px 0;
+}
+.header div, .category > a > div {
+    display: inline-block;
+}
+.header .nintendo-logo {
+    width: 79px;
+    height: 19px;
+    vertical-align: bottom;
+    margin-left: 20px;
+}
+#page-title {
+    height: 19px;
+    font-size: 14px;
+    color: #85878C;
+    margin-left: 15px;
+}
+#content-wrapper .amiibo {
+    background-color: #000000;
+}
+.category {
+    height: 65px;
+    margin-top: 1px;
+    background-color: #ECECEC;
+}
+.category a {
+    display: block;
+}
+.category .icon {
+    width: 46px;
+    height: 45px;
+    margin: 10px 20px;
+    vertical-align: top;
+    background-repeat: no-repeat;
+}
+.category .title {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    color: #85878C;
+    padding-top: 14px;
+}
+.category.short .title {
+    font-size: 22px;
+    padding-top: 4px;
+    width: 220px;
+}
+.amiibo .title {
+    color: #FFFFFF;
+}
+.amiibo .icon {
+    background-image: url(images/icon-amiibo.png);
+}
+.games .icon {
+    background-image: url(images/icon-games.png);
+}
+.news .icon {
+    background-image: url(images/icon-news.png);
+}
+.support .icon {
+    background-image: url(images/icon-support.png);
+}
+.misc-links div {
+    background-color: #ECECEC;
+    display: inline-block;
+    height: 65px;
+    width: 160px;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    text-align: center;
+    vertical-align: top;
+}
+.misc-links .wiiu {
+    float: left;
+}
+.misc-links .eshop {
+    float: right;
+}
+.misc-links .wiiu img {
+    margin-top: 21px;
+}
+.misc-links .eshop img {
+    margin-top: 19px;
+}
+.footer {
+    font-size: 14px;
+    padding: 20px;
+    color: #85878C;
+    text-align: center;
+}
